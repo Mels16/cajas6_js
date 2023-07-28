@@ -1,0 +1,248 @@
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .container section {
+    width: 33.3%;
+    height: 50%;
+    border: 1px solid #fff;
+  }
+  
+  .container .one {
+    background-color: #CC4CB1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .one .content {
+    text-align: center;
+    background-color: #303133;
+    padding: 20px 50px;
+    border-radius: 5px;
+  }
+  
+  .container .one .content h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .container .one .content input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  .container .one .content .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .container .one .content .buttons button {
+    width: 50%;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #303133;
+    border: 1px solid #232426;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #232426;
+    color: #fff;
+  }
+  
+  /* Segunda caja */
+  .container .two {
+    background-color: #4C4CB1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .two .content {
+    text-align: center;
+    background-color: #303133;
+    padding: 20px 50px;
+    border-radius: 5px;
+  }
+  
+  .container .two .content h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .container .two .content .text {
+    margin-bottom: 20px;
+    background-color: #2196F3;
+    padding: 10px 10px;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+  
+  .container .two .content .btn-click {
+    cursor: pointer;
+    padding: 5px 20px;
+    background-color: #303133;
+    border: 1px solid #232426;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #232426;
+    color: #fff;
+  }
+  
+  /* Tercera caja */
+  .container .three {
+    background-color: #F57C00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .three .content {
+    text-align: center;
+    background-color: #303133;
+    padding: 20px 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container .three .content h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .container .three .content .text {
+    margin-bottom: 20px;
+    background-color: #2196F3;
+    padding: 10px 10px;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    border: none;
+  }
+  
+  .container .three .content .btn-click {
+    cursor: pointer;
+    padding: 5px 20px;
+    background-color: #303133;
+    border: 1px solid #232426;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #232426;
+    color: #fff;
+  }
+  
+  /* Cuarta caja */
+  .container .four {
+    background-color: #4CB1A3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .four input {
+    width: 50%;
+    height: 40px;
+    border: none;
+    font-weight: lighter;
+    color: #fff;
+    padding: 0 10px;
+    background: none;
+    font-size: 30px;
+    outline: none;
+  }
+  
+  /* quinta caja */
+  .container .five {
+    background-color: #B14C4C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .five input {
+    width: 50%;
+    height: 40px;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    outline: none;
+  }
+  
+  /* sexta caja */
+  .container .six {
+    background-color: #43A047;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .six .content {
+    text-align: center;
+    background-color: #303133;
+    padding: 20px 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container .six .content .btn-click {
+    cursor: pointer;
+    padding: 5px 20px;
+    margin-top: 20px;
+    background-color: #303133;
+    border: 1px solid #232426;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #232426;
+    color: #fff;
+  }
+  
+  .animationRight {
+    animation: animationRight 1s ease;
+  }
+  
+  @keyframes animationRight {
+    from {
+      transform: translateX(50px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
